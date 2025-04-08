@@ -24,7 +24,7 @@ export default function TeamPointsChart() {
         const dataSMP = new Map<string, TeamData>();
         const dataSMA = new Map<string, TeamData>();
 
-        result.values.slice(1).forEach(([timestamp, team, Tingkat, additionalPoints, totalPoints]: string[]) => {
+        result.values.slice(1).forEach(([_, team, Tingkat, __, totalPoints]: string[]) => {
           const formattedData: TeamData = { name: team, Tingkat, points: parseInt(totalPoints, 10) || 0 };
 
           if (Tingkat === "SD") {
