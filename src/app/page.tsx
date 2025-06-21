@@ -48,7 +48,7 @@ export default function TeamPointsChart() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6 space-y-8">
-      <h1 className="text-3xl font-bold text-gray-800">Perolehan Nilai Supporter LKBB Bramasta 2.0</h1>
+      <h1 className="text-3xl font-bold text-gray-800">Perolehan Nilai Supporter LPBB Udayana RUM-FEST V</h1>
 
       {[
         { title: "SD", data: dataSD },
